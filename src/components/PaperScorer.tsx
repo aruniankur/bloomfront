@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import type { ScoreData, DetailedScoreItem, BloomCategory, BloomWeights, ApiQuestionScore } from '../types';
+import type { ScoreData, DetailedScoreItem, BloomCategory, BloomWeights, ApiQuestionScore } from './shared/types';
 import FileUploader from './shared/FileUploader';
 
 const CATEGORIES: BloomCategory[] = ['Remembering', 'Understanding', 'Applying', 'Analyzing', 'Evaluating', 'Creating'];

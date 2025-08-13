@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import jsPDF from 'jspdf';
-import type { BloomCategory, BloomWeights, GeneratedQuestion, QuestionStatus, ApiGeneratedQuestionItem, QuestionType } from 'types';
+import type { BloomCategory, BloomWeights, GeneratedQuestion, QuestionStatus, ApiGeneratedQuestionItem, QuestionType } from './shared/types';
 import Slider from './shared/Slider';
 import FileUploader from './shared/FileUploader';
 
